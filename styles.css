@@ -158,7 +158,79 @@ hr {
 }
 
 #container-footer {
-    margin-top: 2em;
+    margin: 2em;
     display: flex;
     height: 15em;
+    justify-content: space-between;
+}
+
+#map-container {
+    display: flex;
+    margin-right: 5em;
+}
+
+#map-container img {
+    flex-grow:2;
+}
+
+#info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+
+.info-layout {
+    font-size:small;
+
+}
+.info-title {
+    color: white;
+    font-size: 3em
+}
+
+
+#shows-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.show-layout {
+    color:white;
+    font-size:small;
+}
+
+.show-title {
+    font-size: 3em;
+    margin-top: .125em;
+}
+#container-footer a {
+    color:white;
+    text-decoration: none;
+}
+#container-footer a:visited {
+    color: white;
+    text-decoration: underline;
+}
+
+#container-footer a:hover {
+    color:lightblue;
+    text-decoration: underline;
+}
+
+#social-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.social-layout {
+    color: white;
+    font-size:small;
+}
+
+.social-title {
+    font-size: 3em;
+    margin-top: .125em;
 }
