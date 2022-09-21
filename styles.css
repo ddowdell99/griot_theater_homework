@@ -1,0 +1,161 @@
+body {
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+#container-nav {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.item-tab {
+    font-size: 15px ;
+    margin: 10px;
+    color:white;
+    flex-basis: 0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 3px;
+    padding-right: 3px;
+    flex-grow:2;
+}
+
+.item-main-header {
+    flex-grow: 10;
+    font-size: 25px;
+    padding-left: 190px;
+    text-align: left;
+    min-width: 6em;
+}
+
+.item-tab:hover {
+    background-color: darkgray;
+}
+
+.item-tab a {
+    text-decoration: none;
+    color: white;
+}
+
+.item-tab a:hover {
+    color:lightblue;
+}
+
+.item-tab a:active {
+    color:yellow;
+}
+
+
+
+
+
+.item-main-header:hover {
+    background-color: black;
+}
+
+#hero-image {
+    display:flex;
+    min-height: 45em;
+    align-items: center;
+}
+
+#hero-image-text {
+    color:white;
+    justify-content: center;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 4em;
+    max-height:200px;
+
+}
+
+#hero-image {
+    background-image: url("images/theater-image-background.png");
+    min-height: 30em
+}
+
+main {
+    background-color: white;
+}
+
+#container-main-header {
+    display: flex;
+    justify-content: center;
+}
+
+.content-main-header {
+    border:3px solid #333;
+    background-color: #dfdfdf;
+    flex-grow: 1;
+    padding-left: 5%;
+    max-width: 50%;
+}
+
+#container-main-1 {
+    display: flex;
+    justify-content: center;
+    margin-right: 23%;
+    margin-left: 23%;
+    min-height: 100%;
+    align-items: center;
+    margin-bottom: 1em;
+    margin-top: 2em
+    
+}
+
+.main-image-1 {
+    max-height: 10em;
+    flex-grow: 1;
+
+}
+
+.content-main-1 {
+    padding-left: 10%;
+    flex-grow: 3;
+    
+
+}
+
+.read-more {
+    max-height: 4em;
+    align-items: center;
+    justify-content: center;
+    background-color: #eab626 ;
+    color: white;
+    text-align:center;
+    border: 2px ridge black;
+    padding: 0.5em
+}
+    
+.read-more:hover {
+    background-color: red;
+}
+
+.read-more a {
+    text-decoration: none;
+}
+
+.read-more a:hover {
+    color:lightblue;
+}
+
+.read-more a:active {
+    color: yellow;
+}
+
+.read-more a:visited {
+    color:white;
+}
+
+hr {
+    max-width: 55%;
+    margin-bottom: 2em;
+}
+
+#container-footer {
+    margin-top: 2em;
+    display: flex;
+    height: 15em;
+}
